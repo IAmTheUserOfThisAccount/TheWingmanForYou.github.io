@@ -1,5 +1,6 @@
 body {
     background-color: gray;
+    background-image: URL('./assets/Style_Shades.png');
 }
 
 .headingOne {
@@ -10,7 +11,6 @@ body {
 }
 
 .boxPitch p {
-    background-image: URL('./assets/Style_Shades.png');
     color: white;
     font-size: 28px;
     font-family: 'Courier New', monospace;
