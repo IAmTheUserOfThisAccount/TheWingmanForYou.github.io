@@ -1,10 +1,23 @@
+body {
+    background-color: gray;
+}
+
 .headingOne {
-    color: blue;
+    color: navy;
 
 }
 
 .boxPitch p {
-    border: '3px dashed green';
+    color: maroon;
+    text-decoration: underline;
     color: black;
     font-family: 'Courier New', monospace;
+}
+
+a {
+    font-size: 28px;
+}
+
+a:hover {
+    border-bottom: 8px solid yellow;
 }
