@@ -1,20 +1,24 @@
 body {
-    background-image: URL('./assets/Style_Shades.png');
+    background-color: gray;
 }
 
 .headingOne {
-    color: navy;
+    font-size: 38px;
+    text-align: center;
+    color: blue;
 
 }
 
 .boxPitch p {
+    background-image: URL('./assets/Style_Shades.png');
     color: white;
-    font-size: 22px;
+    font-size: 28px;
     font-family: 'Courier New', monospace;
+    font-weight: 800px;
 }
 
 a {
-    font-size: 28px;
+    font-size: 48px;
 }
 
 a:hover {
