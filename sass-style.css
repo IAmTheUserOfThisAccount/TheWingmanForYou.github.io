@@ -1,3 +1,48 @@
+body {
+  background-color: gray;
+  /* background-image: URL('./assets/Style_Shades.png'); */
+  background-image: URL("https://images.unsplash.com/photo-1666321574598-fff1c1bbd832?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+body .headingOne {
+  font-size: 38px;
+  text-align: center;
+  color: blue;
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  body .headingOne {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  body .headingOne {
+    font-size: 22px;
+  }
+}
+body .boxPitch p {
+  color: white;
+  font-size: 28px;
+  font-family: "Courier New", monospace;
+  font-weight: 800;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  body .boxPitch p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  body .boxPitch p {
+    font-size: 16px;
+  }
+}
+body a {
+  font-size: 48px;
+}
+body a:hover {
+  border-bottom: 8px solid yellow;
+}
+
 .testBox {
   height: 280px;
   width: 280px;
@@ -5,6 +50,16 @@
 }
 .testBox p:hover {
   border: 8px dashed blue;
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .testBox {
+    background-color: brown;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .testBox {
+    background-color: blue;
+  }
 }
 
 /*# sourceMappingURL=sass-style.css.map */

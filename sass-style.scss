@@ -1,3 +1,58 @@
+@mixin tabletBreakpoint() {
+    @media only screen and (min-width: 768px) and (max-width: 900px) {
+        @content;
+    }
+  }
+
+  @mixin mobileBreakpoint() {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+        @content;
+    }
+  }
+
+body {
+    background-color: gray;
+    /* background-image: URL('./assets/Style_Shades.png'); */
+    background-image: URL('https://images.unsplash.com/photo-1666321574598-fff1c1bbd832?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    .headingOne {
+        font-size: 38px;
+        text-align: center;
+        color: blue;
+        @include tabletBreakpoint() {
+            font-size: 22px;
+        }
+        @include mobileBreakpoint() {
+            font-size: 22px;
+        }
+    }
+
+    .boxPitch  {
+        p {
+            color: white;
+            font-size: 28px;
+            font-family: 'Courier New', monospace;
+            font-weight: 800;
+            margin-left: 15%;
+            margin-right: 15%;
+            @include tabletBreakpoint() {
+                font-size: 16px;
+            }
+            @include mobileBreakpoint() {
+                font-size: 16px;
+            }
+        }
+    
+      }
+      a {
+        font-size: 48px;
+        &:hover {
+            border-bottom: 8px solid yellow;
+        }
+      }
+  }
+
+
 .testBox {
     height: 280px;
     width: 280px;
@@ -6,5 +61,11 @@
         &:hover {
             border: 8px dashed blue;
         }
+    }
+    @include tabletBreakpoint() {
+        background-color: brown;
+    }
+    @include mobileBreakpoint() {
+        background-color: blue;
     }
   }
