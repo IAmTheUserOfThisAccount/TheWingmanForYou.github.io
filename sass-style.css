@@ -1,0 +1,10 @@
+.testBox {
+  height: 280px;
+  width: 280px;
+  background-color: orange;
+}
+.testBox p:hover {
+  border: 8px dashed blue;
+}
+
+/*# sourceMappingURL=sass-style.css.map */

@@ -24,12 +24,5 @@ a:hover {
   border-bottom: 8px solid yellow;
 }
 
-.testBox {
-  height: 280px;
-  width: 280px;
-}
-.testBox p:hover {
-  border: 8px dashed orange;
-}
 
 /*# sourceMappingURL=style.css.map */
