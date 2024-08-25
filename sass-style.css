@@ -51,17 +51,7 @@ body .testBox p:hover {
   border: 8px dashed blue;
 }
 body .testBox:hover {
-  background-color: green;
-}
-@media screen and (min-width: 768px) and (max-width: 900px) {
-  body .testBox:hover {
-    background-color: transparent;
-  }
-}
-@media screen and (min-width: 200px) and (max-width: 767px) {
-  body .testBox:hover {
-    background-color: brown;
-  }
+  background-color: gray;
 }
 @media screen and (min-width: 768px) and (max-width: 900px) {
   body .testBox {
