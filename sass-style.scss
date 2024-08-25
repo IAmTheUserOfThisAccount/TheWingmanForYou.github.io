@@ -1,11 +1,14 @@
+/*note about media queries, sometimes with the developer console open it does not render, the window has to be resized with the developer console closed*/
+
+
 @mixin tabletBreakpoint() {
-    @media screen and (max-width: 900px) {
+    @media screen and (min-width: 768px) and (max-width: 900px) {
         @content;
     }
   }
 
 @mixin mobileBreakpoint() {
-    @media screen and (max-width: 767px) {
+    @media screen and (min-width: 200px) and (max-width: 767px) {
         @content;
     }
 }
@@ -23,12 +26,12 @@ body {
         font-size: 38px;
         text-align: center;
         color: blue;
-        // @include tabletBreakpoint() {
-        //     font-size: 22px;
-        // }
-        // @include mobileBreakpoint() {
-        //     font-size: 22px;
-        // }
+        @include tabletBreakpoint() {
+            font-size: 22px;
+        }
+        @include mobileBreakpoint() {
+            font-size: 22px;
+        }
     }
 
     .boxPitch  {
@@ -39,12 +42,12 @@ body {
             font-weight: 800;
             margin-left: 15%;
             margin-right: 15%;
-            // @include tabletBreakpoint() {
-            //     font-size: 16px;
-            // }
-            // @include mobileBreakpoint() {
-            //     font-size: 16px;
-            // }
+            @include tabletBreakpoint() {
+                font-size: 16px;
+            }
+            @include mobileBreakpoint() {
+                font-size: 16px;
+            }
         }
     
       }

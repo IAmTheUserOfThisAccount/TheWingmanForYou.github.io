@@ -1,3 +1,6 @@
+/*note about media queries, sometimes with the developer console open it does not render, the window has to be resized with the developer console closed*/
+
+
 body {
   background-color: gray;
   /* background-image: URL('./assets/Style_Shades.png'); */
@@ -8,6 +11,16 @@ body .headingOne {
   text-align: center;
   color: blue;
 }
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  body .headingOne {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  body .headingOne {
+    font-size: 22px;
+  }
+}
 body .boxPitch p {
   color: white;
   font-size: 28px;
@@ -15,6 +28,16 @@ body .boxPitch p {
   font-weight: 800;
   margin-left: 15%;
   margin-right: 15%;
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  body .boxPitch p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  body .boxPitch p {
+    font-size: 16px;
+  }
 }
 body a {
   font-size: 48px;
@@ -33,12 +56,12 @@ body .testBox p:hover {
 body .testBox:hover {
   background-color: gray;
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 768px) and (max-width: 900px) {
   body .testBox {
     background-color: brown;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
   body .testBox {
     background-color: blue;
   }
