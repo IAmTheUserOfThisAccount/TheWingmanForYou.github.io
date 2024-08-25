@@ -1,11 +1,11 @@
 @mixin tabletBreakpoint() {
-    @media only screen and (min-width: 768px) and (max-width: 900px) {
+    @media screen and (min-width: 768px) and (max-width: 900px) {
         @content;
     }
   }
 
 @mixin mobileBreakpoint() {
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
+    @media screen and (min-width: 200px) and (max-width: 767px) {
         @content;
     }
 }
@@ -61,6 +61,12 @@ body {
         }
         &:hover { // test to maybe be removed
             background-color: green;
+            @include tabletBreakpoint() {
+                background-color: transparent;
+            }
+            @include mobileBreakpoint() {
+                background-color: brown;
+            }
         }
         @include tabletBreakpoint() {
             background-color: brown;
