@@ -1,12 +1,14 @@
 @mixin tabletBreakpoint() {
     @media screen and (min-width: 768px) and (max-width: 900px) {
-        @content;
+        // @content;
+        background-color: brown;
     }
   }
 
 @mixin mobileBreakpoint() {
     @media screen and (min-width: 200px) and (max-width: 767px) {
-        @content;
+        // @content;
+        background-color: blue;
     }
 }
 
@@ -23,12 +25,12 @@ body {
         font-size: 38px;
         text-align: center;
         color: blue;
-        @include tabletBreakpoint() {
-            font-size: 22px;
-        }
-        @include mobileBreakpoint() {
-            font-size: 22px;
-        }
+        // @include tabletBreakpoint() {
+        //     font-size: 22px;
+        // }
+        // @include mobileBreakpoint() {
+        //     font-size: 22px;
+        // }
     }
 
     .boxPitch  {
@@ -39,12 +41,12 @@ body {
             font-weight: 800;
             margin-left: 15%;
             margin-right: 15%;
-            @include tabletBreakpoint() {
-                font-size: 16px;
-            }
-            @include mobileBreakpoint() {
-                font-size: 16px;
-            }
+            // @include tabletBreakpoint() {
+            //     font-size: 16px;
+            // }
+            // @include mobileBreakpoint() {
+            //     font-size: 16px;
+            // }
         }
     
       }
@@ -66,12 +68,14 @@ body {
         &:hover { // test to maybe be removed
             @include testColor();
         }
-        @include tabletBreakpoint() {
-            background-color: brown;
-        }
-        @include mobileBreakpoint() {
-            background-color: blue;
-        }
+        @include tabletBreakpoint();
+        @include mobileBreakpoint();
+        // @include tabletBreakpoint() {
+        //     background-color: brown;
+        // }
+        // @include mobileBreakpoint() {
+        //     background-color: blue;
+        // }
       }
   }
 
