@@ -8,12 +8,12 @@ body .headingOne {
   text-align: center;
   color: blue;
 }
-@media only screen and (min-width: 768px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 900px) {
   body .headingOne {
     font-size: 22px;
   }
 }
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
   body .headingOne {
     font-size: 22px;
   }
@@ -26,12 +26,12 @@ body .boxPitch p {
   margin-left: 15%;
   margin-right: 15%;
 }
-@media only screen and (min-width: 768px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 900px) {
   body .boxPitch p {
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
   body .boxPitch p {
     font-size: 16px;
   }
@@ -50,12 +50,12 @@ body .testBox {
 body .testBox p:hover {
   border: 8px dashed blue;
 }
-@media only screen and (min-width: 768px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 900px) {
   body .testBox {
     background-color: brown;
   }
 }
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
   body .testBox {
     background-color: blue;
   }
