@@ -1,10 +1,10 @@
-@mixin tabletBreakpoint() {
+@mixin tabletBreakpoint {
     @media (min-width: 768px) and (max-width: 900px) {
         @content;
     }
   }
 
-  @mixin mobileBreakpoint() {
+  @mixin mobileBreakpoint {
     @media (min-width: 200px) and (max-width: 767px) {
         @content;
     }
@@ -59,10 +59,10 @@ body {
                 border: 8px dashed blue;
             }
         }
-        @include tabletBreakpoint() {
+        @include tabletBreakpoint {
             background-color: brown;
         }
-        @include mobileBreakpoint() {
+        @include mobileBreakpoint {
             background-color: blue;
         }
       }
