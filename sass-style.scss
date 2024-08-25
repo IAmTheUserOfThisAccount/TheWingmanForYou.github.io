@@ -1,13 +1,13 @@
 @mixin tabletBreakpoint() {
     @media screen and (min-width: 768px) and (max-width: 900px) {
-        // @content;
+        @content;
         background-color: brown;
     }
   }
 
 @mixin mobileBreakpoint() {
     @media screen and (min-width: 200px) and (max-width: 767px) {
-        // @content;
+        @content;
         background-color: blue;
     }
 }
