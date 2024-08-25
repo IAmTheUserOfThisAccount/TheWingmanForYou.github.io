@@ -42,22 +42,21 @@ body a {
 body a:hover {
   border-bottom: 8px solid yellow;
 }
-
-.testBox {
+body .testBox {
   height: 280px;
   width: 280px;
   background-color: orange;
 }
-.testBox p:hover {
+body .testBox p:hover {
   border: 8px dashed blue;
 }
 @media only screen and (min-width: 768px) and (max-width: 900px) {
-  .testBox {
+  body .testBox {
     background-color: brown;
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
-  .testBox {
+  body .testBox {
     background-color: blue;
   }
 }

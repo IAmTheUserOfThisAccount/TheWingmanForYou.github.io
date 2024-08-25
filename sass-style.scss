@@ -50,22 +50,21 @@ body {
             border-bottom: 8px solid yellow;
         }
       }
-  }
-
-
-.testBox {
-    height: 280px;
-    width: 280px;
-    background-color: orange;
-    p {
-        &:hover {
-            border: 8px dashed blue;
+      .testBox {
+        height: 280px;
+        width: 280px;
+        background-color: orange;
+        p {
+            &:hover {
+                border: 8px dashed blue;
+            }
         }
-    }
-    @include tabletBreakpoint() {
-        background-color: brown;
-    }
-    @include mobileBreakpoint() {
-        background-color: blue;
-    }
+        @include tabletBreakpoint() {
+            background-color: brown;
+        }
+        @include mobileBreakpoint() {
+            background-color: blue;
+        }
+      }
   }
+
