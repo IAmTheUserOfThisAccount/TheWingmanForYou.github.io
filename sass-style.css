@@ -1,6 +1,4 @@
 /*note about media queries, sometimes with the developer console open it does not render, the window has to be resized with the developer console closed*/
-
-
 body {
   background-color: gray;
   /* background-image: URL('./assets/Style_Shades.png'); */
@@ -44,27 +42,6 @@ body a {
 }
 body a:hover {
   border-bottom: 8px dashed yellow;
-}
-body .testBox {
-  height: 280px;
-  width: 280px;
-  background-color: orange;
-}
-body .testBox p:hover {
-  border: 8px dashed blue;
-}
-body .testBox:hover {
-  background-color: gray;
-}
-@media screen and (min-width: 768px) and (max-width: 900px) {
-  body .testBox {
-    background-color: brown;
-  }
-}
-@media screen and (min-width: 200px) and (max-width: 767px) {
-  body .testBox {
-    background-color: blue;
-  }
 }
 
 /*# sourceMappingURL=sass-style.css.map */
