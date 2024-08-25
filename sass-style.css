@@ -40,7 +40,7 @@ body a {
   font-size: 48px;
 }
 body a:hover {
-  border-bottom: 8px solid yellow;
+  border-bottom: 8px dashed yellow;
 }
 body .testBox {
   height: 280px;
@@ -49,6 +49,9 @@ body .testBox {
 }
 body .testBox p:hover {
   border: 8px dashed blue;
+}
+body .testBox:hover {
+  background-color: green;
 }
 @media only screen and (min-width: 768px) and (max-width: 900px) {
   body .testBox {
