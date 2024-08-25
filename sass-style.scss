@@ -10,6 +10,10 @@
     }
 }
 
+@mixin testColor() {
+    background-color: gray;
+}
+
 body {
     background-color: gray;
     /* background-image: URL('./assets/Style_Shades.png'); */
@@ -60,13 +64,7 @@ body {
             }
         }
         &:hover { // test to maybe be removed
-            background-color: green;
-            @include tabletBreakpoint() {
-                background-color: transparent;
-            }
-            @include mobileBreakpoint() {
-                background-color: brown;
-            }
+            @include testColor();
         }
         @include tabletBreakpoint() {
             background-color: brown;
