@@ -1,14 +1,14 @@
-// @mixin tabletBreakpoint() {
-//     @media only screen and (min-width: 768px) and (max-width: 900px) {
-//         @content;
-//     }
-//   }
+@mixin tabletBreakpoint() {
+    @media only screen and (min-width: 768px) and (max-width: 900px) {
+        @content;
+    }
+  }
 
-//   @mixin mobileBreakpoint() {
-//     @media only screen and (min-width: 200px) and (max-width: 767px) {
-//         @content;
-//     }
-//   }
+@mixin mobileBreakpoint() {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+        @content;
+    }
+}
 
 body {
     background-color: gray;
@@ -19,12 +19,12 @@ body {
         font-size: 38px;
         text-align: center;
         color: blue;
-        // @include tabletBreakpoint() {
-        //     font-size: 22px;
-        // }
-        // @include mobileBreakpoint() {
-        //     font-size: 22px;
-        // }
+        @include tabletBreakpoint() {
+            font-size: 22px;
+        }
+        @include mobileBreakpoint() {
+            font-size: 22px;
+        }
     }
 
     .boxPitch  {
@@ -35,12 +35,12 @@ body {
             font-weight: 800;
             margin-left: 15%;
             margin-right: 15%;
-            // @include tabletBreakpoint() {
-            //     font-size: 16px;
-            // }
-            // @include mobileBreakpoint() {
-            //     font-size: 16px;
-            // }
+            @include tabletBreakpoint() {
+                font-size: 16px;
+            }
+            @include mobileBreakpoint() {
+                font-size: 16px;
+            }
         }
     
       }
@@ -59,12 +59,12 @@ body {
                 border: 8px dashed blue;
             }
         }
-        // @include tabletBreakpoint() {
-        //     background-color: brown;
-        // }
-        // @include mobileBreakpoint() {
-        //     background-color: blue;
-        // }
+        @include tabletBreakpoint() {
+            background-color: brown;
+        }
+        @include mobileBreakpoint() {
+            background-color: blue;
+        }
       }
   }
 
