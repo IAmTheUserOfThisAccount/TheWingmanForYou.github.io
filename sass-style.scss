@@ -57,24 +57,5 @@ body {
             border-bottom: 8px dashed yellow;
         }
       }
-      .testBox {
-        height: 280px;
-        width: 280px;
-        background-color: orange;
-        p {
-            &:hover {
-                border: 8px dashed blue;
-            }
-        }
-        &:hover { // test to maybe be removed
-            @include testColor();
-        }
-        @include tabletBreakpoint() {
-            background-color: brown;
-        }
-        @include mobileBreakpoint() {
-            background-color: blue;
-        }
-      }
   }
 
