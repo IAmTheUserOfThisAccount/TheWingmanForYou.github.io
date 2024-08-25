@@ -8,16 +8,6 @@ body .headingOne {
   text-align: center;
   color: blue;
 }
-@media screen and (min-width: 768px) and (max-width: 900px) {
-  body .headingOne {
-    font-size: 22px;
-  }
-}
-@media screen and (min-width: 200px) and (max-width: 767px) {
-  body .headingOne {
-    font-size: 22px;
-  }
-}
 body .boxPitch p {
   color: white;
   font-size: 28px;
@@ -25,16 +15,6 @@ body .boxPitch p {
   font-weight: 800;
   margin-left: 15%;
   margin-right: 15%;
-}
-@media screen and (min-width: 768px) and (max-width: 900px) {
-  body .boxPitch p {
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 200px) and (max-width: 767px) {
-  body .boxPitch p {
-    font-size: 16px;
-  }
 }
 body a {
   font-size: 48px;
