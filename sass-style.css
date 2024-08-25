@@ -33,12 +33,12 @@ body .testBox p:hover {
 body .testBox:hover {
   background-color: gray;
 }
-@media screen and (min-width: 768px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   body .testBox {
     background-color: brown;
   }
 }
-@media screen and (min-width: 200px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   body .testBox {
     background-color: blue;
   }
