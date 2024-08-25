@@ -47,7 +47,7 @@ body {
       a {
         font-size: 48px;
         &:hover {
-            border-bottom: 8px solid yellow;
+            border-bottom: 8px dashed yellow;
         }
       }
       .testBox {
@@ -58,6 +58,9 @@ body {
             &:hover {
                 border: 8px dashed blue;
             }
+        }
+        &:hover { // test to maybe be removed
+            background-color: green;
         }
         @include tabletBreakpoint() {
             background-color: brown;
