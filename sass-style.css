@@ -7,7 +7,7 @@ body {
 body .headingOne {
   font-size: 38px;
   text-align: center;
-  color: blue;
+  color: white;
 }
 @media screen and (min-width: 768px) and (max-width: 900px) {
   body .headingOne {
@@ -53,6 +53,12 @@ body a:hover {
   body a {
     border: 6px solid maroon;
   }
+}
+
+.page2Heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: blue;
 }
 
 /*# sourceMappingURL=sass-style.css.map */
