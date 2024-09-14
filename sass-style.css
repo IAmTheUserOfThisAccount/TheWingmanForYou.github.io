@@ -61,4 +61,11 @@ body a:hover {
   color: blue;
 }
 
+.page2Parapagraph h2 {
+  color: white;
+}
+.page2Parapagraph p {
+  color: white;
+}
+
 /*# sourceMappingURL=sass-style.css.map */
