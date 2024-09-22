@@ -39,6 +39,7 @@ body .boxPitch p {
 }
 body .boxPitch a {
   font-size: 48px;
+  color: yellow;
 }
 body .boxPitch a:hover {
   border-bottom: 8px dashed yellow;
@@ -61,6 +62,7 @@ body .boxPitch a:hover {
 }
 .page2Heading a {
   font-size: 48px;
+  color: yellow;
 }
 .page2Heading a:hover {
   border-bottom: 8px dashed yellow;
