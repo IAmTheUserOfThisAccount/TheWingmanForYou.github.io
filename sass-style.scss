@@ -54,7 +54,6 @@ body {
             &:hover {
                 border-bottom: 8px dashed yellow;
             }
-            border: 8px solid yellow;
             @include tabletBreakpoint() {
                 border: 8px solid orange;
             }
