@@ -39,7 +39,6 @@ body .boxPitch p {
 }
 body a {
   font-size: 48px;
-  border: 8px solid yellow;
 }
 body a:hover {
   border-bottom: 8px dashed yellow;
