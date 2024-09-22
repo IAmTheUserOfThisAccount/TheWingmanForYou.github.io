@@ -49,20 +49,19 @@ body {
                 font-size: 16px;
             }
         }
-    
-      }
-      a {
-        font-size: 48px;
-        &:hover {
-            border-bottom: 8px dashed yellow;
-        }
-        border: 8px solid yellow;
-        @include tabletBreakpoint() {
-            border: 8px solid orange;
-        }
-        @include mobileBreakpoint() {
-            border: 6px solid maroon;
-        }
+        a {
+            font-size: 48px;
+            &:hover {
+                border-bottom: 8px dashed yellow;
+            }
+            border: 8px solid yellow;
+            @include tabletBreakpoint() {
+                border: 8px solid orange;
+            }
+            @include mobileBreakpoint() {
+                border: 6px solid maroon;
+            }
+          }
       }
   }
 
@@ -73,6 +72,18 @@ body {
     font-size: 28px;
     font-weight: bold;
     color: blue;
+    a {
+        font-size: 48px;
+        &:hover {
+            border-bottom: 8px dashed yellow;
+        }
+        @include tabletBreakpoint() {
+            border: 8px solid orange;
+        }
+        @include mobileBreakpoint() {
+            border: 6px solid maroon;
+        }
+      }
   }
 
   .page2Parapagraph {
