@@ -84,5 +84,22 @@ body .boxPitch a:hover {
 .page2Parapagraph p {
   color: white;
 }
+.page2Parapagraph a {
+  font-size: 48px;
+  color: yellow;
+}
+.page2Parapagraph a:hover {
+  border-bottom: 8px dashed yellow;
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .page2Parapagraph a {
+    border: 8px solid orange;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .page2Parapagraph a {
+    border: 6px solid maroon;
+  }
+}
 
 /*# sourceMappingURL=sass-style.css.map */
